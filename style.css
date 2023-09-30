@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background: #d0cfcf;
+}
+
+.cover{
+    background: #fff;
+    /* height:99.5vh; */
+    width:50vw;
+    margin: auto;
+    padding: 40px;
+}
+
+
+
+
+.header-section{
+    text-align: center;
+}
+
+.header-section h1{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.header-section h3{
+    font-weight: 100;
+    padding-top: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+nav ul{
+    margin: auto;
+    padding: 10px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding-left: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+/* education */
+
+.section-name{
+    padding: 5px 0;
+}
+.academy{
+    padding-bottom: 10px;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.box1 h3{
+    padding: 5px;
+}
+.light-box{
+    font-weight: 400;
+   
+}
+
+
+/* experience */
+
+.experience{
+    padding-top: 8px;
+}
+
+.experience h3{
+    padding: 5px 0;
+}
+
+.descript{
+    /* list-style: none; */
+    padding: 0px 25px;
+    
+}
+.details ul{
+    padding: 0px 40px;
+}
+
+.link{
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+
+/* Tech skill */
+.Tech-skil ul li{
+    list-style: none;
+    padding: 2px 20px;
+
+}
+
+.Tech-skil ul li span{
+    font-weight: 800;
+}
+
+
+
+@media screen and (max-width: 786px) {
+    .cover {
+        width:80vw;
+        font-size: 0.9rem;
+        padding: 20px;
+    }
+  }
+
+@media screen and (max-width: 480px) {
+    .cover {
+        width:99.5vw;
+        font-size: 0.6rem;
+        padding: 6px;
+    }
+
+.box1{
+    padding: 0 5px;
+
+    }
+    .light-box{
+        padding:0 4px;
+    }
+  }
